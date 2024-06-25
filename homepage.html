@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" />
 </head>
 <body>
     <nav class="navbar-1">
@@ -19,7 +20,7 @@
         <div class="navbar-right">
             <a href="#">Community</a>
             <div class="dropdown">
-                <a href="#">Account</a>
+                <a href="#"><i class="fas fa-user"></i> Account <i class="fas fa-caret-down"></i></a>
                 <div class="dropdown-content">
                     <a href="#">Profile</a>
                     <a href="#">Settings</a>
@@ -31,7 +32,7 @@
     </nav>
     <nav class="navbar-2">
         <div class="navbar-left">
-            <img class = "navimage" src="dummy_150x33_FFFFFF_e6dede.png"  >
+            <img class = "navimage" src="images/logo.jpg"  >
         </div>
         <div class="navbar-right">
             <div class="dropdown">
@@ -60,45 +61,130 @@
         <div class="top">
             <div class="grid-container">
                 <div class="item full-width">
-                    <img class="grid-img-1" src="Capture1.PNG" alt="Image 1">
+                    <img class="grid-img-1" src="images/Capture1.PNG" alt="Image 1">
                 </div>
                 <div class="item half-width">
-                    <img class="grid-img-2" src="Capture2.PNG" alt="Image 2">
+                    <img class="grid-img-2" src="images/Capture2.PNG" alt="Image 2">
                 </div>
                 <div class="item half-width">
-                    <img class="grid-img-3" src="Capture3.PNG" alt="Image 3">
+                    <img class="grid-img-3" src="images/Capture3.PNG" alt="Image 3">
                 </div>
             </div>
 
             <div class="flex-container">
                 <div class="product">
                     <p>TATTOO<br>SUPPLIES</p>
-                    <img class="flex-img" src="Product.PNG">
+                    <img class="flex-img" src="images/Product.PNG">
                     <button class="product-btn">Shop now</button>
                 </div>
                 <div class="product">
                     <p>BODY<br>JEWELRY</p>
-                    <img class="flex-img" src="Product.PNG">
+                    <img class="flex-img" src="images/Product.PNG">
                     <button class="product-btn">Shop now</button>
                 </div>
                 <div class="product">
                     <p>PIERCING<br>SUPPLIES</p>
-                    <img class="flex-img" src="Product.PNG">
+                    <img class="flex-img" src="images/Product.PNG">
                     <button class="product-btn">Shop now</button>
                 </div>
                 <div class="product">
                     <p>MEDICAL<br>SUPPLIES</p>
-                    <img class="flex-img" src="Product.PNG">
+                    <img class="flex-img" src="images/Product.PNG">
                     <button class="product-btn">Shop now</button>
                 </div>
                 <div class="product">
                     <p>PERMANENT<br>MAKEUP</p>
-                    <img class="flex-img" src="Product.PNG">
+                    <img class="flex-img" src="images/Product.PNG">
                     <button class="product-btn">Shop now</button>
                 </div>
             </div>
         </div>
-        <div class="bottom"></div>
+        <div class="carousel">
+            <button id="prev-slide" class="slide-button material-symbols-rounded">&#x276E;</button>
+            <div class="carousel-list">
+                <div class="carousel-item">
+                    <img class="carousel-img" src="images/carousel-img1.png">
+                    <p class="price">$1199.99</p>
+                    <p class="description">Inkjecta Filte X1 Wireless Tattoo Machine</p>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="images/carousel-img1.png">
+                    <p class="price">$1199.99</p>
+                    <p class="description">Inkjecta Filte X1 Wireless Tattoo Machine</p>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="images/carousel-img1.png">
+                    <p class="price">$1199.99</p>
+                    <p class="description">Inkjecta Filte X1 Wireless Tattoo Machine</p>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="images/carousel-img1.png">
+                    <p class="price">$1199.99</p>
+                    <p class="description">Inkjecta Filte X1 Wireless Tattoo Machine</p>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="images/carousel-img1.png">
+                    <p class="price">$1199.99</p>
+                    <p class="description">Inkjecta Filte X1 Wireless Tattoo Machine</p>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="images/carousel-img1.png">
+                    <p class="price">$1199.99</p>
+                    <p class="description">Inkjecta Filte X1 Wireless Tattoo Machine</p>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="images/carousel-img1.png">
+                    <p class="price">$1199.99</p>
+                    <p class="description">Inkjecta Filte X1 Wireless Tattoo Machine</p>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="images/carousel-img1.png">
+                    <p class="price">$1199.99</p>
+                    <p class="description">Inkjecta Filte X1 Wireless Tattoo Machine</p>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="images/carousel-img1.png">
+                    <p class="price">$1199.99</p>
+                    <p class="description">Inkjecta Filte X1 Wireless Tattoo Machine</p>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="images/carousel-img1.png">
+                    <p class="price">$1199.99</p>
+                    <p class="description">Inkjecta Filte X1 Wireless Tattoo Machine</p>
+                </div>
+            </div>
+            <button id="next-slide" class="slide-button material-symbols-rounded">&#x276F;</button>
+             
+        </div>
     </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>The leading provider of quality jewelry, tattoo and piercing supplies</h3>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <nav class="hidden-nav">
+        <div class="navbar-left">
+            <img class = "navimage" src="images/logo.jpg"  >
+            <button class="navbar-toggle">&#9776;</button> <!-- Toggle button for mobile menu -->
+        </div>
+        <div class="navbar-center">
+            <input type="text" placeholder="Search by name, category..">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+    </nav>
+    <script src="script.js"></script>
 </body>
 </html>
