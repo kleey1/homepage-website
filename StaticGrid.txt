@@ -1,0 +1,23 @@
+.grid-container {
+    position:static;
+    display: grid;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: 2fr 1fr; 
+    grid-gap: 5px; /* Gap between grid items */
+    padding: 10px 20px;
+}
+
+.full-width {
+    grid-row: 1 / span 2; /* Span across two columns */
+}
+
+.grid-img-1 {
+    width: 650px; /* Ensure image fits within its container */ 
+    object-fit: cover;
+}
+
+.grid-img-2, .grid-img-3 {
+    width: 325px; /* Ensure image fits within its container */
+    object-fit: cover;
+}
