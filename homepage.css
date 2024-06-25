@@ -4,6 +4,7 @@ body {
     padding: 0;
 }
 
+/* ============= Navbar Styles ============================================================= */
 
 .navbar-1 {
     position: sticky; /* Standard */
@@ -120,6 +121,9 @@ body {
     padding-right: 200px;
 }
 
+
+/* ============= Top Content Styles ==============================================================================*/
+
 .home-content{
     position: relative;
     align-items: center;
@@ -129,6 +133,9 @@ body {
     margin-right: 200px;
     margin-left: 200px;
 }
+
+
+/* ============= Grid Styles ==================================================================================== */
 
 .grid-container {
     position:static;
@@ -156,6 +163,8 @@ body {
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Maintain aspect ratio and cover grid container */
 }
+
+/* ============= Flex Styles ================================================================================ */
 
 .flex-container{
     display: flex;
@@ -201,6 +210,8 @@ body {
     margin: 0 auto;
     font-size: 12px;
 }
+
+/* ============= Carousel Styles ================================================================================ */
 
 .carousel{
     position:relative;
@@ -289,6 +300,8 @@ background:#878686;
     right: -10px;
 }
 
+/* ============= Footer Styles ================================================================================ */
+
 .footer {
     background-color:#3a76b6;
     color: #fff;
@@ -321,6 +334,8 @@ background:#878686;
     text-decoration: underline;
 }
 
+/* ============= Hidden Nav Styles ============================================================================== */
+
 .hidden-nav{
     display:none;
 }
@@ -333,6 +348,8 @@ background:#878686;
     margin: 0; 
     padding: 0; 
 }
+
+/* ============= Adaptivity/Resizing Styles ===================================================================== */
 
 @media (max-width: 1024px) {
     .grid-container {
